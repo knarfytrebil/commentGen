@@ -3,6 +3,7 @@ import sys, os
 
 rFUNCTION = r"(\w+)\ = function"
 rFUNCTION_INCLASS = r"(\w+)\: function"
+rPROPERTY_INCLASS = r"(\w+)\: (.*)\,"
 rCLASS = r"let (\w+)\ ="
 rPARAM = r"\(.*?\)"
 cFUNCTION = """
